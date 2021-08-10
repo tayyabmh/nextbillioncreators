@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: #ddeefc !important;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+   display: inline;
+   margin: 10px;
+ }
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: #282c34 solid 1px;
+}
+
+.connect-wallet {
+  margin: 0px 16px;
+}
+
+.profileDescription {
+  background: #fff;
+  box-shadow: 0 30px 60px 0 rgb(90 116 148 / 40%);
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.tip-actions-container {
+  background: #fff;
+  box-shadow: 0 30px 60px 0 rgb(90 116 148 / 40%);
+  border-radius: 10px;
+  padding: 35px;
+  padding-bottom: 65px;
+}
+
+.profile-container {
+  margin-top: 10%;
+}
+
+.wallet-badge {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 8px;
+}
+
+.network {
+  width: 200px;
+}
+
+.account {
+  width: 200px;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  background: white;
+}
+
+.profile-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-link {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
 }
